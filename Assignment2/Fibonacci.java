@@ -16,7 +16,7 @@ public class Fibonacci
 
 	public static void main(String[] args)
 	{
-		int n = 10;
+		int n = Integer.parseInt(args[0]);
 		
 		System.out.println("The term " + n +" of the Fibonacci sequence is " + fibonacci(n));
 	}
