@@ -61,8 +61,16 @@ public class Fibonacci
 		 * fibonacci term to calculate.
 		 * @param n The fibonacci term
 		 */
-		int n = Integer.parseInt(args[0]);
+		int n = 0;
+
+		if (args.length == 0)
+			System.out.println("Please enter an integer to calculate the fibonacci sequence value.");
+		else
+		{
+			n = Integer.parseInt(args[0]);
 		
-		System.out.println("The term " + n +" of the Fibonacci sequence is " + fibonacci(n));
+			System.out.println("The term " + n +" of the Fibonacci sequence is " + fibonacci(n));
+		}
+
 	}
 }
