@@ -164,12 +164,7 @@ public class Fibonacci
 	public static void main(String[] args)
 	{
 		// Test for fib(40)
-		//iterativeVsRecursive(40);
 
-		// Test using memoization
-		//recursiveMemoization(40);
-
-		//iterativeMethod(30);
 
 		System.out.println(iterativeMethod(40));
 		System.out.println(recursiveMethod(40) + "\n");
